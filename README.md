@@ -12,3 +12,19 @@ first backage is "qr-image"
 second is "inquirer"
 
 and used middleware of "body-parser" npm backages
+
+# Clone It 
+
+INSTALL BACKAGES :
+------------------ 
+In termenal : 
+              1 - npm i -y
+              2 - npm i express
+              3 - npm i inquirer
+              4 - npm i inquirer 
+
+RUN SERVER :
+------------
+
+In termenal : 
+              1 - node index.js 
