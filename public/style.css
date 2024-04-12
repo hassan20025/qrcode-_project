@@ -1,0 +1,11 @@
+.content{
+    margin-top: 20vh;
+    display: grid;
+    justify-content: center;
+}
+.image{
+    display: grid;
+    justify-content: center;
+    height: 20000vh;
+    width: 100px;
+}

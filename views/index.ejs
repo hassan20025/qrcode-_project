@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+    <% if(locals.message) { %>
+        <h1>Can Enter New URL 👇</h1>
+   <% }else{ %>
+        <h1>Enter URL 👇</h1>
+    <% } %>
+
+
+    <form action="/submit" method="POST">
+        <input type="text" name="URL" placeholder="Name">
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <% if(locals.message) { %>
+        <img src="<%= imageUrl %>" >
+   <% }else{ %>
+        <h1></h1>
+    <% } %>
+
+</div>
+
+    
+</body>
+</html>
